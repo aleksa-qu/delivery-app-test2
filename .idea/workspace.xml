@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b7b940-88cd-47a1-b967-2791d9dc784d" name="Changes" comment="Created and Ran prettier.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/prod.env" beforeDir="false" afterPath="$PROJECT_DIR$/env/prod.env" afterDir="false" />
+    <list default="true" id="14b7b940-88cd-47a1-b967-2791d9dc784d" name="Changes" comment="Created new branch. Updated prod.env">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/playwright.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <workItem from="1753992560107" duration="125000" />
       <workItem from="1754025796572" duration="208000" />
       <workItem from="1754026106836" duration="670000" />
-      <workItem from="1754216369601" duration="963000" />
+      <workItem from="1754216369601" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="Created and Ran prettier.">
       <option name="closed" value="true" />
@@ -98,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754216957345</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created new branch. Updated prod.env">
+      <option name="closed" value="true" />
+      <created>1754217480856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754217480856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created and Ran prettier." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created and Ran prettier." />
+    <MESSAGE value="Created new branch. Updated prod.env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new branch. Updated prod.env" />
   </component>
 </project>
