@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       URL: ${{ secrets.URL }}
+      TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
+      TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
 
