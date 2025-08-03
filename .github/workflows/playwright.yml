@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      URL: https://fe-delivery.tallinn-learning.ee/
+      URL: ${{ secrets.URL }}
     steps:
       - uses: actions/checkout@v4
 
