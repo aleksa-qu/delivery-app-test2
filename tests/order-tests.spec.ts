@@ -2,6 +2,7 @@ import { test, expect, Route } from '@playwright/test';
 import { AuthUtils } from '../utils/auth-utils';
 import { AuthorizedPage } from './pages/authorized-page';
 import { OrderFoundPage } from './pages/order-found-page';
+import {SERVICE_URL} from "../config/env-data";
 
 test.beforeEach(async ({ context }) => {
   const authUtils = new AuthUtils();
@@ -14,7 +15,7 @@ test.beforeEach(async ({ context }) => {
 test.describe('ORDERS', async () => {
   test('auth', async ({ page }) => {
     const orderPage = new AuthorizedPage(page);
-    await page.goto('https://fe-delivery.tallinn-learning.ee/');
+    await page.goto(SERVICE_URL);
     await expect(orderPage.statusButton).toBeVisible();
   });
   test('Create order with mock api', async ({ page }) => {
@@ -37,7 +38,7 @@ test.describe('ORDERS', async () => {
         await route.continue();
       }
     });
-    await page.goto('https://fe-delivery.tallinn-learning.ee/');
+    await page.goto(SERVICE_URL);
     await orderPage.userInputField.fill('testName');
     await orderPage.phoneInputField.fill('89084563322');
     await orderPage.commentInputField.fill('TestComment');
@@ -67,7 +68,7 @@ test.describe('ORDERS', async () => {
       }
     });
 
-    await page.goto('https://fe-delivery.tallinn-learning.ee/');
+    await page.goto(SERVICE_URL);
     await orderPage.statusButton.click();
     await orderPage.orderSearchInputField.fill('2947');
     await orderPage.orderSearchPopUpButton.click();
@@ -100,7 +101,7 @@ test.describe('ORDERS', async () => {
         await route.continue();
       }
     });
-    await page.goto('https://fe-delivery.tallinn-learning.ee/');
+    await page.goto(SERVICE_URL);
     await orderPage.statusButton.click();
     await orderPage.orderSearchInputField.fill('2947');
     await orderPage.orderSearchPopUpButton.click();
@@ -122,7 +123,7 @@ test.describe('ORDERS', async () => {
         await route.continue();
       }
     });
-    await page.goto('https://fe-delivery.tallinn-learning.ee/');
+    await page.goto(SERVICE_URL);
     await page.getByTestId('openStatusPopup-button').click();
     await page.getByTestId('searchOrder-input').fill('2947');
     await page.getByTestId('searchOrder-submitButton').click();

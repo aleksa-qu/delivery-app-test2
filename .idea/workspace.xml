@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b7b940-88cd-47a1-b967-2791d9dc784d" name="Changes" comment="Updated yml once again" />
+    <list default="true" id="14b7b940-88cd-47a1-b967-2791d9dc784d" name="Changes" comment="Updated yml again">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/env-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/prod.env" beforeDir="false" afterPath="$PROJECT_DIR$/env/prod.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/order-tests.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/order-tests.spec.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +33,12 @@
     &quot;assignee&quot;: &quot;aleksa-qu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aleksa-qu/delivery-app-test2.git",
-    "accountId": "5d3ddabd-27c2-4359-837b-41cfad3468af"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aleksa-qu/delivery-app-test2.git&quot;,
+    &quot;accountId&quot;: &quot;5d3ddabd-27c2-4359-837b-41cfad3468af&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -41,10 +50,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Playwright.ORDERS.Get 500 error with mock api.executor": "Run",
     "Playwright.order-tests.spec.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson22",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/37255/WebstormProjects/delivery-app-test2",
     "node.js.detected.package.eslint": "true",
@@ -58,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Playwright.ORDERS">
     <configuration name="All Tests" type="JavaScriptTestRunnerPlaywright" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -67,6 +77,37 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="ORDERS" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/order-tests.spec.ts" />
+      <test-names>
+        <test-name value="ORDERS" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ORDERS.Get 500 error with mock api" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/order-tests.spec.ts" />
+      <test-names>
+        <test-name value="ORDERS" />
+        <test-name value="Get 500 error with mock api" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Playwright.ORDERS" />
+        <item itemvalue="Playwright.ORDERS.Get 500 error with mock api" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -86,6 +127,8 @@
       <workItem from="1754025796572" duration="208000" />
       <workItem from="1754026106836" duration="670000" />
       <workItem from="1754216369601" duration="1645000" />
+      <workItem from="1754226296271" duration="255000" />
+      <workItem from="1754819143526" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Created and Ran prettier.">
       <option name="closed" value="true" />
@@ -131,5 +174,16 @@
     <MESSAGE value="Updated yml" />
     <MESSAGE value="Updated yml once again" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated yml once again" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tests/order-tests.spec.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
